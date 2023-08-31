@@ -1,0 +1,6 @@
+.posts {
+    flex: 3;
+    display: grid;
+    padding: 20px 60px 30px 30px;
+    grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,44 @@
+.post {
+    padding: 0 20px 20px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.postImg {
+    height: 300px;
+    width: 100%;
+    min-width: 400px;
+    max-width: 500px;
+    border-radius: 7px;
+}
+
+.categories {
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #be9656;
+}
+
+.title {
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.createdAt {
+    padding: 10px 0 20px 0;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    color: #777;
+}
+
+.postBody {
+    color:#444;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}

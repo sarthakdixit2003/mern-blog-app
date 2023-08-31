@@ -1,0 +1,125 @@
+.singlePost {
+    flex: 3;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Lora', serif;
+    display:flex;
+    flex-direction: column;
+}
+
+.singlePostImg {
+    height: 200px;
+    width: 100%;
+}
+
+.singlePostTitle {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.singlePostTitleInput {
+    color: #333;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    border-bottom: 1px solid #999;
+}
+
+.singlePostTitleInput:focus {
+    outline: none;
+}
+
+.singlePostHeading {
+    flex: 9;
+}
+
+.singlePostEdit {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.singlePostIcon:first-child {
+    color: teal;
+    transition: color 0.15s, background-color 0.15s;
+}
+
+.singlePostIcon:first-child:hover {
+    color: white;
+    background-color: teal;
+}
+
+.singlePostIcon:last-child {
+    color: tomato;
+    transition: color 0.15s, background-color 0.15s;
+}
+
+.singlePostIcon:last-child:hover {
+    color: white;
+    background-color: tomato;
+}
+
+.singlePostSubtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #be9656;
+}
+
+.singlePostIcon {
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.singlePostBody {
+    color: #666;
+    line-height: 25px;
+}
+
+.singlePostBody::first-letter {
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.singlePostBodyInput {
+    border: none;
+    height: 250px;
+    padding: 10px;
+    border-bottom: 1px solid #999;
+    color: #666;
+    line-height: 25px;
+}
+
+.singlePostBodyInput:focus {
+    outline: none;
+}
+
+.singlePostBtn {
+    padding: 5px;
+    width: 100px;
+    color: white;
+    background-color: teal;
+    align-self: flex-end;
+    border: 1px solid teal;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.singlePostBtn:hover {
+    opacity: 0.8;
+}
+
+.singlePostBtn:active {
+    opacity: 0.6;
+}

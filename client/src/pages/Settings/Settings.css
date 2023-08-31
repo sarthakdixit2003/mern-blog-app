@@ -1,0 +1,103 @@
+.settingsContainer {
+    display: flex;
+}
+
+.settings {
+    padding-left: 20px;
+    flex: 3;
+}
+
+.settingsTitle {
+    color: tomato;
+    position: relative;
+}
+
+.settingsTitleSecondary {
+    font-weight: 700;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.settingsForm {
+    padding-top: 40px;
+}
+
+.settingsFormGroup {
+    padding: 10px 0;
+}
+
+.settingsSubtitle {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.settingsProfile {
+    display: flex;
+    align-items: center;
+}
+
+.settingsProfileImg {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.settingsIcon {
+    color: tomato;
+    background-color: white;
+    border: 3px solid tomato;
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: color 0.15s, background-color 0.15s;
+}
+
+.settingsIcon:hover {
+    color: white;
+    background-color: tomato;
+    border: 3px solid tomato;
+}
+
+#settingsFileInput {
+    display: none;
+}
+
+.settingsInput {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #888;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+.settingsInput:focus {
+    outline: none;
+}
+
+.settingsBtn {
+    padding: 10px 50px;
+    margin-top: 30px;
+    margin-left: 40%;
+    background-color: teal;
+    color: white;
+    border: 1px solid teal;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: color 0.15s, background-color 0.15s;
+}
+
+.settingsBtn:hover {
+    color: teal;
+    background-color: white;
+}
+
+.settingsSuccess {
+    color: green;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}

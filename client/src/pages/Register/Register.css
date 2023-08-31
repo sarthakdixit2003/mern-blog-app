@@ -1,0 +1,87 @@
+.registerBgImg {
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.registerContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 150px;
+    align-items: center;
+}
+
+.registerTitle {
+    font-size: 40px;
+}
+
+.registerForm {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerSubtitle {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.registerInput {
+    margin: 5px 0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+.registerInput:focus {
+    outline: none;
+}
+
+.registerInputError {
+    border: 1px solid tomato;
+}
+
+.registerInputError::placeholder {
+    color: tomato;
+}
+
+.registerBtn {
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.registerBtn:hover {
+    opacity: 0.9;
+}
+
+.registerLoginBtn {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    background-color: tomato;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.registerLoginBtn:hover {
+    opacity: 0.9;
+}
+
+.registerError {
+    color: tomato;
+}
