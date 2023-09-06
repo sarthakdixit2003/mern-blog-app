@@ -1,6 +1,4 @@
 {
-  "name": "mern-blog",
-  "version": "1.0.0",
   "description": "mern blog app",
   "main": "index.js",
   "scripts": {
